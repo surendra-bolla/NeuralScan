@@ -96,6 +96,7 @@ Async file handling
 1️⃣ Clone the repository
 
 git clone https://github.com/your-username/neuralscan-ai.git
+
 cd neuralscan-ai
 
 2️⃣ Create virtual environment
