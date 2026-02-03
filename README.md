@@ -78,8 +78,12 @@ pip install -r requirements.txt
 
 ▶️ Running the Application
 
-Start FastAPI backend
-python app.py
+▶️ Running the Backend (FastAPI)
+Make sure your FastAPI entry file is main.py and exposes app.
+python -m uvicorn main:app \
+  --reload \
+  --host 0.0.0.0 \
+  --port 8000
 
 
 Backend runs at:
