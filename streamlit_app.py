@@ -52,10 +52,7 @@ def load_css():
     }
     
     /* Hide Streamlit Chrome */
-    #MainMenu, footer, header, [data-testid="stToolbar"] {
-        visibility: hidden !important;
-        display: none !important;
-    }
+
     
     /* Typography Scale */
     h1, h2, h3, h4, h5, h6 {
